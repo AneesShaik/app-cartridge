@@ -1,0 +1,35 @@
+I, [2016-07-13T19:43:24.596905 #2279]  INFO -- example-ubuntu-1404: -----> Cleaning up any prior instances of <example-ubuntu-1404>
+I, [2016-07-13T19:43:24.597091 #2279]  INFO -- example-ubuntu-1404: -----> Destroying <example-ubuntu-1404>...
+I, [2016-07-13T19:43:24.597746 #2279]  INFO -- example-ubuntu-1404: Finished destroying <example-ubuntu-1404> (0m0.00s).
+I, [2016-07-13T19:43:24.597956 #2279]  INFO -- example-ubuntu-1404: -----> Testing <example-ubuntu-1404>
+I, [2016-07-13T19:43:24.598068 #2279]  INFO -- example-ubuntu-1404: -----> Creating <example-ubuntu-1404>...
+I, [2016-07-13T19:43:26.019590 #2279]  INFO -- example-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-07-13T19:43:26.558205 #2279]  INFO -- example-ubuntu-1404: ==> default: Importing base box 'bento/ubuntu-14.04'...
+I, [2016-07-13T19:43:43.826375 #2279]  INFO -- example-ubuntu-1404: [KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2016-07-13T19:43:43.986482 #2279]  INFO -- example-ubuntu-1404: ==> default: Checking if box 'bento/ubuntu-14.04' is up to date...
+I, [2016-07-13T19:43:44.034181 #2279]  INFO -- example-ubuntu-1404: ==> default: There was a problem while downloading the metadata for your box
+I, [2016-07-13T19:43:44.034269 #2279]  INFO -- example-ubuntu-1404: ==> default: to check for updates. This is not an error, since it is usually due
+I, [2016-07-13T19:43:44.034294 #2279]  INFO -- example-ubuntu-1404: ==> default: to temporary network problems. This is just a warning. The problem
+I, [2016-07-13T19:43:44.034315 #2279]  INFO -- example-ubuntu-1404: ==> default: encountered was:
+I, [2016-07-13T19:43:44.034381 #2279]  INFO -- example-ubuntu-1404: ==> default: 
+I, [2016-07-13T19:43:44.034401 #2279]  INFO -- example-ubuntu-1404: ==> default: Could not resolve host: atlas.hashicorp.com
+I, [2016-07-13T19:43:44.034418 #2279]  INFO -- example-ubuntu-1404: ==> default: 
+I, [2016-07-13T19:43:44.034435 #2279]  INFO -- example-ubuntu-1404: ==> default: If you want to check for box updates, verify your network connection
+I, [2016-07-13T19:43:44.034914 #2279]  INFO -- example-ubuntu-1404: ==> default: is valid and try again.
+I, [2016-07-13T19:43:44.590576 #2279]  INFO -- example-ubuntu-1404: ==> default: Setting the name of the VM: kitchen-nginx-example-ubuntu-1404_default_1468464224542_70394
+I, [2016-07-13T19:43:45.043551 #2279]  INFO -- example-ubuntu-1404: ==> default: Clearing any previously set network interfaces...
+I, [2016-07-13T19:43:45.133547 #2279]  INFO -- example-ubuntu-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2016-07-13T19:43:45.134024 #2279]  INFO -- example-ubuntu-1404:     default: Adapter 1: nat
+I, [2016-07-13T19:43:45.212346 #2279]  INFO -- example-ubuntu-1404: ==> default: Forwarding ports...
+I, [2016-07-13T19:43:45.338260 #2279]  INFO -- example-ubuntu-1404:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2016-07-13T19:43:45.537954 #2279]  INFO -- example-ubuntu-1404: ==> default: Booting VM...
+I, [2016-07-13T19:43:46.109277 #2279]  INFO -- example-ubuntu-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2016-07-13T19:43:46.635776 #2279]  INFO -- example-ubuntu-1404:     default: SSH address: 127.0.0.1:2222
+I, [2016-07-13T19:43:46.636239 #2279]  INFO -- example-ubuntu-1404:     default: SSH username: vagrant
+I, [2016-07-13T19:43:46.636575 #2279]  INFO -- example-ubuntu-1404:     default: SSH auth method: private key
+I, [2016-07-13T19:44:11.590049 #2279]  INFO -- example-ubuntu-1404:     default: 
+I, [2016-07-13T19:44:11.608889 #2279]  INFO -- example-ubuntu-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2016-07-13T19:44:11.609075 #2279]  INFO -- example-ubuntu-1404:     default: this with a newly generated keypair for better security.
+I, [2016-07-13T19:44:24.500563 #2279]  INFO -- example-ubuntu-1404:     default: 
+I, [2016-07-13T19:44:24.630895 #2279]  INFO -- example-ubuntu-1404:     default: Inserting generated public key within guest...
+I, [2016-07-13T19:44:32.923125 #2279]  INFO -- example-ubuntu-1404:     default: Removing insecure key from the guest if it's present...

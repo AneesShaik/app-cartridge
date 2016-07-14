@@ -1,0 +1,19 @@
+DEPENDENCIES
+  apt (~> 2.6.1)
+  nginx
+    path: .
+    metadata: true
+  nginx_service_test
+    path: test/fixtures/cookbooks/nginx_service_test
+  yum-epel
+
+GRAPH
+  apt (2.6.1)
+  nginx (2.99.0)
+  nginx_service_test (0.1.0)
+    apt (>= 0.0.0)
+    nginx (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  yum (3.11.0)
+  yum-epel (0.7.0)
+    yum (>= 3.6.3)
